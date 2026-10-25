@@ -61,7 +61,8 @@
     .card__footer { margin-top: auto; display: flex; align-items: center; justify-content: space-between; padding-top: 0.8rem; border-top: 1px solid var(--line); }
     .card__price { font-size: 1.1rem; font-weight: 700; color: var(--green-dark); }
     .card__price small { font-size: 0.7rem; color: var(--ink-soft); font-weight: 400; }
-        /* ========== MODO EDICIÓN Y AGOTADO ========== */
+  
+      /* ========== MODO EDICIÓN Y AGOTADO ========== */
     .edit-mode [contenteditable="true"] { outline: 2px dashed var(--green); outline-offset: 4px; border-radius: 4px; cursor: text; background: rgba(4, 120, 87, 0.05); }
     .edit-mode .card__media { outline: 2px dashed var(--green); outline-offset: -4px; cursor: pointer; }
     .edit-mode .card__media::after { content: 'Cambiar Foto (Link)'; position: absolute; inset: 0; background: rgba(4, 120, 87, 0.6); color: white; display: flex; align-items: center; justify-content: center; font-weight: bold; opacity: 0; transition: opacity 0.3s; z-index: 3; text-align: center; padding: 1rem; }
@@ -265,7 +266,7 @@
       </div>
     </div>
   </div>
-
+  
     <script>
     const MONEDA = "USD";
     const STORAGE_KEY = "veltra_admin_data"; 
